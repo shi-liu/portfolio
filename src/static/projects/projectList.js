@@ -1,7 +1,7 @@
-import web from '../../static/images/web.jpg';
-import draft from '../../static/images/draft.jpg';
-import html from '../../static/images/html.jpg';
-import ace from '../../static/images/ace.PNG';
+import web from '../../static/images/rs_web.png';
+import draft from '../../static/images/rs_draft.png';
+import html from '../../static/images/rs_html.png';
+import ace from '../../static/images/rs_ace.png';
 
 const projects = [
     {

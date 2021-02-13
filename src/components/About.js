@@ -27,11 +27,11 @@ function About({ classes }){
                             frameworks and languages for fullstack development. 
                             It's a satisfying feeling to be able to connect the dots 
                             between the front and backend to put the learned concepts into practice.
-                            Currently I'm working on a project related to stocks and educating myself
-                            on financial literacy which is both crucial to know and is pretty interesting.
-                            It would be intriguing to apply these knowledge in a business setting one day
-                            since I like to be efficient and optimizing business processes is a tough challenge
-                            that I would glady take on.
+                            Currently, I'm working on another full stack project related to the stock market and 
+                            educating myself on financial literacy. The purpose would be to deploy it so that it may
+                            help others like myself who are new to investing understand terminologies and calculations.
+                            In the long run, I aspire to use technologies and business concepts I've learned along the way
+                            to optimize business processes.
                         </Typography>
                     </Grid>
                     <Grid item style={{marginTop: "30px"}}>
@@ -41,9 +41,8 @@ function About({ classes }){
                     </Grid>
                     <Grid item align="left">
                         <Typography className={classes.basicFont}>
-                            During free time, I like to play video games (MMORPG), watch tv shows
-                            and cute cat videos on youtube.
-                            Some of the outdoor activities I enjoy are hiking and biking. Extra points if the
+                            During free time, I like to play video games (MMORPG), watch tv shows, and cute cat videos on youtube.
+                            Some of the outdoor activities I enjoy are hiking and biking, especially if the
                             scenery is engaging. I also like to play badminton despite the fact that I'm not that
                             good at it, but what's important is the joy of playing with friends...right?
                             And lastly, I love to build computers especially with an extra feature of 
