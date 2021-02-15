@@ -23,6 +23,7 @@ function App() {
   const theme = createMuiTheme(themeObject);
   const darkTheme = createMuiTheme(darkThemeObject);
   return (
+    <div>
     <ThemeProvider theme={ darkMode ? darkTheme : theme}>
       <CssBaseline/>
         <Navbar/>
@@ -32,6 +33,7 @@ function App() {
         </Grid>
         <Home/>
     </ThemeProvider>
+    </div>
   );
 }
 

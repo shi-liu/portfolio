@@ -14,8 +14,9 @@ const styles = theme => ({
 /*
 Assembles all the different sections together in page
 */
-function Home(){
+function Home({classes}){
     return (
+        <div className={classes.background}>
         <Grid container direction="column" justify="space-evenly" alignItems="center">
             <Grid item xs={12} align="center">
                 <Intro/>
@@ -33,6 +34,7 @@ function Home(){
                 <Contact/>
             </Grid>
         </Grid>
+        </div>
     )
 }
 

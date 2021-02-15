@@ -1,3 +1,4 @@
+
 const styles = {
     palette: {
         primary: {
@@ -17,11 +18,12 @@ const styles = {
             width: "100%"
         },
         margin: "0 auto 0 auto",
+        background: {}
     },
     navComp: {
         basicText: {
             fontFamily: "Nunito"
-        }
+        },
     },
     introComp: {
         root: {

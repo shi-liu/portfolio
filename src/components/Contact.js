@@ -37,6 +37,13 @@ function Contact({ classes }){
                         </Typography>
                     </Grid>
                     <Grid item xs={12}>
+                        <Typography className={classes.basicText}>
+                            And here's my resume if you'd like to take a look!
+                            <a className={classes.anchor} target="_blank" href="https://docs.google.com/document/d/1FlIz8etTWw8QbKfI_1Uaa8p0t5UbJy8Y59LnXq1iUo0/edit?usp=sharing" 
+                            rel="noopener noreferrer"> Resume</a>
+                        </Typography>
+                    </Grid>
+                    <Grid item xs={12}>
                         <a href="https://www.linkedin.com/in/shihualiu-info/" target="_blank" rel="noopener noreferrer">
                             <IconButton><LinkedInIcon color="secondary"/></IconButton>
                         </a>
